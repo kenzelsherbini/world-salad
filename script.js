@@ -1,5 +1,3 @@
-let userName = prompt("What is your name?")
-let userAge = prompt("How old are you?")
 let bestFriend = prompt("Who is your best friend?")
 let country = prompt("Which country are you visiting?")
 let stuffBought = prompt("What do you shop for when going on vacation?")
