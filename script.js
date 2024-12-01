@@ -34,3 +34,7 @@ Your friend sighs, clearly doubting you, and says "${crazyPeopleSaying}."
 You nod, but deep down, you know you’ll never sleep peacefully in ${dreamCountry} again.`;
 
 
+document.getElementById("storyone").textContent = storyOne;
+document.getElementById("storytwo").textContent = storyTwo;
+document.getElementById("storythree").textContent = storyThree;
+
