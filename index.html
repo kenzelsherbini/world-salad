@@ -1,84 +1,63 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Mad Lib Website</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
+<head>
+    <title>Mad Lib Website</title> <!-- Title of the webpage -->
+    <meta charset="utf-8" /> <!-- Sets the character encoding to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> <!-- Makes the webpage responsive -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" /> <!-- Bootstrap CSS for styling -->
+    <link rel="stylesheet" href="https://use.typekit.net/smr8qal.css"> <!-- Typekit font stylesheet -->
+</head>
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
-    </head>
+<body>
+    <main role="main"> <!-- Main content of the page -->
+        <!-- Hero Section -->
+        <div class="hero text-center bg-dark"> <!-- Hero banner with a dark background and centered text -->
+            <div class="container p-5"> <!-- Container with padding -->
+                <h1 class="text-light">Your Dream Buggy Vacation!</h1> <!-- Main heading with light-colored text -->
+            </div>
+        </div>
 
-    <body>
-        <header>
-            
-        </header>
-            <main role="main">
-                <div class="hero text-center bg-light">
-                  <div class="container p-5">
-                    <h1>Your Dream Buggy Vacation!</h1>
-                  </div>
-                </div>
+        <!-- Card Story Section -->
+        <div class="cardstory py-5 bg-dark"> <!-- Card story section with padding and dark background -->
+            <div class="container"> <!-- Container to align content -->
+                <div class="row"> <!-- Row to organize cards -->
 
-                <div class="cardstory py-5 bg-light">
-                  <div class="container">
-                    <div class="row">
-
-                      <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                          <img class="card-img-top" src="/imghold.png" style="height: 225px; width: 100%; display: block;">
-                          <div class="card-body">
-                            <p class="card-text" id="storyone"></p>
-                          </div>
+                    <!-- First Card -->
+                    <div class="col-12 col-md-4"> <!-- Column for the first card -->
+                        <div class="card mb-4 box-shadow"> <!-- Card with bottom margin and shadow -->
+                            <img class="card-img-top" src="/img/airport.jpg"> <!-- Image for the card -->
+                            <div class="card-body"> <!-- Card body for content -->
+                                <p class="card-text" id="storyone"></p> <!-- Placeholder paragraph with ID for dynamic content -->
+                            </div>
                         </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                          <img class="card-img-top" src="/imghold.png" style="height: 225px; width: 100%; display: block;">
-                          <div class="card-body">
-                            <p class="card-text" id="storytwo"></p>
-                          </div>
-                        </div>
-                      </div>
-            
-                      <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                          <img class="card-img-top" src="/imghold.png" style="height: 225px; width: 100%; display: block;">
-                          <div class="card-body">
-                            <p class="card-text" id="storythree"></p>
-                          </div>
-                        </div>
-                      </div>          
-                      </div>
                     </div>
-                  </div>
+
+                    <!-- Second Card -->
+                    <div class="col-12 col-md-4"> <!-- Column for the second card -->
+                        <div class="card mb-4 box-shadow"> <!-- Card with bottom margin and shadow -->
+                            <img class="card-img-top" src="/img/scary.jpg"> <!-- Image for the card -->
+                            <div class="card-body"> <!-- Card body for content -->
+                                <p class="card-text" id="storytwo"></p> <!-- Placeholder paragraph with ID for dynamic content -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Third Card -->
+                    <div class="col-12 col-md-4"> <!-- Column for the third card -->
+                        <div class="card mb-4 box-shadow"> <!-- Card with bottom margin and shadow -->
+                            <img class="card-img-top" src="/img/scared.jpg"> <!-- Image for the card -->
+                            <div class="card-body"> <!-- Card body for content -->
+                                <p class="card-text" id="storythree"></p> <!-- Placeholder paragraph with ID for dynamic content -->
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-               
-              </main>
-  
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
+            </div>
+        </div>
+    </main>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
-        <script src="script.js"></script>
-    </body>
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
 </html>
-

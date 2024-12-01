@@ -1,0 +1,64 @@
+/* Styling for images in cards */
+.card-img-top {
+    height: 100%; /* Ensures the image fills the card height */
+    width: 100%; /* Ensures the image spans the card width */
+    display: block; /* Prevents inline-block spacing issues */
+}
+
+/* Styling for headings */
+h1 {
+    font-family: "professor-minty", sans-serif; /* Custom font for headings */
+    font-weight: 700; /* Bold font weight */
+    font-style: normal; /* Ensures normal font style */
+}
+
+/* Styling for paragraphs */
+p {
+    font-family: "mr-darcy", sans-serif; /* Custom font for paragraph text */
+    font-weight: 400; /* Regular font weight */
+    font-style: normal; /* Ensures normal font style */
+}
+
+/* General styling for the body */
+body {
+    border: 12px solid #333; /* Adds a thick border around the page */
+    box-shadow: 0 0 50px #000000; /* Creates an outer glow effect */
+    background: linear-gradient(135deg, #121212, #1c1c1c); /* Adds a dark gradient background */
+    color: #f4f4f4; /* Sets light text color for readability */
+}
+
+/* Hero section (header) styling */
+.hero {
+    background: #121212; /* Dark background color */
+    padding: 40px; /* Adds padding for spacing */
+    text-align: center; /* Centers the text within the hero section */
+    box-shadow: 0 5px 15px #000000; /* Adds shadow for depth */
+}
+
+/* Additional heading styling for hero section */
+h1 {
+    color: #ffffff; /* Sets the text color to white */
+    text-shadow: 3px 3px 10px #511010; /* Adds a glowing effect to the text */
+}
+
+/* Card story section styling */
+.cardstory {
+    padding: 50px; /* Adds padding for spacing */
+    background: #1c1c1c; /* Dark translucent background */
+    border-radius: 15px; /* Rounds the corners of the section */
+}
+
+/* Individual card styling */
+.card {
+    background: #222; /* Very dark card background */
+    border: 2px solid #666; /* Subtle border for the cards */
+    border-radius: 10px; /* Rounds the edges of the cards */
+    box-shadow: 0 5px 15px #000000; /* Adds a deep shadow for depth */
+}
+
+/* Card body styling */
+.card-body {
+    background-color: white; /* Sets the card body background to white */
+    color: white; /* Sets the text color to white (potential conflict with background) */
+}
+
